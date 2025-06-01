@@ -1,0 +1,17 @@
+cuteBot.colorLight(cuteBot.RGBLights.RGB_L, 0xff0000)
+cuteBot.colorLight(cuteBot.RGBLights.RGB_R, 0xff0000)
+for (let index = 0; index < 4; index++) {
+    cuteBot.forward()
+    basic.pause(400)
+    cuteBot.motors(100, 40)
+    basic.pause(2000)
+    cuteBot.forward()
+    basic.pause(400)
+    cuteBot.forward()
+    basic.pause(400)
+    cuteBot.motors(40, 100)
+    basic.pause(2000)
+    cuteBot.forward()
+    basic.pause(400)
+}
+cuteBot.stopcar()
